@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-image:linear-gradient(rgba(8, 36, 59, 0.774),rgba(9, 32, 61, 0.884)),
+    url(img/header.jpg); 
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 2em;
+    
+}
+.homeicon{  
+    width: 8.0808%; /* 80px */
+    max-width: 80px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu ul{
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    text-decoration: none;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+ul li a{
+    padding: 1em 1em;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+.title h1{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 2em;
+}
+.title p{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 0.5em;
+    font-weight: lighter;
+}
